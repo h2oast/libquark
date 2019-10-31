@@ -1,0 +1,6 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.2)
+PROJECT(libquark)
+
+INCLUDE_DIRECTORIES(include)
+
+ADD_LIBRARY(quark STATIC source/rbtree.c)
